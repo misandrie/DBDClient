@@ -31,3 +31,7 @@ async def main():
 
 asyncio.run(main())
 ```
+
+#### Usage with Fiddler (or any other HTTPS traffic capturing program)
+Go to [this line](https://github.com/malchanceux/Nightfall/blob/13972a7fd11445bf7d6556e8b17baa7c045f2136/DBDClient/Request.py#L12) and change `verify=True` to `verify=False`.  
+This will disable SSL verification and allow you to use the library with Fiddler
