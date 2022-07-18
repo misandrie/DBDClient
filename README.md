@@ -1,6 +1,5 @@
 # Nightfall
-### An asynchronous API wrapped for Dead By Daylight, written in Python
-___
+An asynchronous API wrapped for Dead By Daylight, written in Python
 
 #### Installation
 To install the library normally, run:  
