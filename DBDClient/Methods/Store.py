@@ -1,4 +1,3 @@
-import requests
 from DBDClient.Request import Request
 
 class Shrine:
@@ -23,4 +22,7 @@ class Store:
         pass
     
     async def getAvailableBundles(Client):
+        """
+        Retrieves all auric cell bundles in store
+        """
         return await Request("POST", "/v1/extensions/store/getAvailableBundles", await Client.getSession(), await Client.getHeaders(), None)
